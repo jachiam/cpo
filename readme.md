@@ -9,11 +9,10 @@ This module was designed for [rllab](https://github.com/openai/rllab) [2], and i
 
 described in our paper [1]. 
 
-To configure, run the following commands in the root folder of `rllab`:
+To configure, run the following command in the root folder of `rllab`:
 
 ```bash
-git submodule add -f git@github.com:jachiam/cpo.git sandbox/cpo
-touch sandbox/__init__.py
+git submodule add -f https://github.com/jachiam/cpo sandbox/cpo
 ```
 
 Run CPO in the Point-Gather environment with
