@@ -1,6 +1,6 @@
 # Constrained Policy Optimization for rllab
 
-Constrained Policy Optimization (CPO) [1] is an algorithm for learning policies that should satisfy behavioral constraints throughout training. 
+Constrained Policy Optimization (CPO) is an algorithm for learning policies that should satisfy behavioral constraints throughout training. [1]
 
 This module was designed for [rllab](https://github.com/openai/rllab) [2], and includes the implementations of
 - [Constrained Policy Optimization](https://github.com/jachiam/cpo/blob/master/algos/safe/cpo.py)
