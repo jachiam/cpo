@@ -16,6 +16,11 @@ git submodule add -f git@github.com:jachiam/cpo.git sandbox/cpo
 touch sandbox/__init__.py
 ```
 
+Run CPO in the Point-Gather environment with
+```bash
+python sandbox/cpo/experiments/CPO_point_gather.py 
+```
+
 ***
 
 1. Joshua Achiam, David Held, Aviv Tamar, Pieter Abbeel. "[Constrained Policy Optimization](https://arxiv.org/abs/1705.10528)". _Proceedings of the 34th International Conference on Machine Learning (ICML), 2017._ 

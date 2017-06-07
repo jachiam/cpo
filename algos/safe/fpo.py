@@ -34,7 +34,7 @@ class FPO(PolicyGradientSafe, Serializable):
         safety_key = 'returns'
         pdo_vf_mode = 1
 
-        super(PDO, self).__init__(optimizer=optimizer, 
+        super(FPO, self).__init__(optimizer=optimizer, 
                                    safety_constrained_optimizer=False,
                                    safety_constraint=safety_constraint,
                                    safety_tradeoff=True,
